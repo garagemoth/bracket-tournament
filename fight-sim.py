@@ -65,6 +65,8 @@ def fight():
             print(f"It looks like they tied! We're gonna go off of the audience vote!")
             print(f"The results are in... the people want {winner.name}!]")
             print(f"Congrats! Let's give them a HUGE round of applause.\n")
+        ready = input("Press enter to continue the tournament")
+        print()
 
 def declareWinners():
     print("                  Results!")
