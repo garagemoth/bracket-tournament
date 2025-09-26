@@ -8,6 +8,8 @@ introductions = [
     "Let's do our best!"
 ]
 
+introList = introductions.copy()
+
 class Character:
     def __init__(self, name, strength, luck):
         self.name = name
@@ -15,7 +17,9 @@ class Character:
         self.luck = luck
 
     def introduce(self):
-        introList = introductions.copy()
+        global introList
+        if not introList:
+            introList = introductions.copy()
         chosenIntro = random.choice(introList)
         introList.remove(chosenIntro)
         print(f"\"{chosenIntro}\"\n")

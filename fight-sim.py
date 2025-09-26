@@ -66,7 +66,7 @@ def fight():
             print(f"The results are in... the people want {winner.name}!]")
             print(f"Congrats! Let's give them a HUGE round of applause.\n")
         ready = input("Press enter to continue the tournament")
-        print()
+        print("\n" + "="*50 + "\n\n\n\n\n\n")
 
 def declareWinners():
     print("                  Results!")
@@ -100,7 +100,7 @@ for i in range(1, num_rounds):
     declareWinners()
     cleanStart()
     ready = input("Press enter to continue into the next round")
-    print()
+    print("\n" + "="*50 + "\n\n\n\n\n\n")
 
 if len(availableCharacters) == 2:
     fighter1 = availableCharacters.pop()
