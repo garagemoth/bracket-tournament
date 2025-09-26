@@ -4,7 +4,7 @@ This is a python-based bracket tournament program that enables you to write your
 
 ## How to Run
 1. Make sure you have Python installed.
-2. Open terminal / Git Bash in the project folder.
+2. Open terminal / Git Bash in the project folder. (Run in Git Bash for a better experience of not scrolling... Trust me)
 3. Run: python fight-sim.py
 
 ## Additional Notes
